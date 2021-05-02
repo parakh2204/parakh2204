@@ -1761,3 +1761,23 @@ body.light hr.separator {
     margin-top: 35px !important;
   }
 }
+
+/* width */
+figure::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+figure::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+figure::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+figure::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
